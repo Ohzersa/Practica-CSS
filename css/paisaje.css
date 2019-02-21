@@ -1,0 +1,44 @@
+.blur-effect img{
+    width: 33.33%;
+    height: auto;
+    float: left;
+    padding: 5%;
+    background-color: #d5c75f;
+    box-sizing: border-box;
+    filter: blur(10px);
+}
+
+.gray-effect img{
+    width: 33.33%;
+    height: auto;
+    float: left;
+    padding: 5%;
+    background-color: #d5c75f;
+    box-sizing: border-box;
+    filter: grayscale(100%);
+}
+
+.sepia-effect img{
+    width: 33.33%;
+    height: auto;
+    float: left;
+    padding: 5%;
+    background-color: #d5c75f;
+    box-sizing: border-box;
+    filter: sepia(90%)
+}
+
+.effect img{
+    width: 33.33%;
+    height: auto;
+    float: left;
+    padding: 5%;
+    background-color: #d5c75f;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:900px) {
+    .blur-effect img, .gray-effect img, .sepia-effect img, .effect img {
+        width: 100%;
+    }
+}
